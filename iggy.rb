@@ -12,7 +12,7 @@ class Iggy < Formula
     pkgetc.install "configs"
 
     system "cargo", "install", *std_cargo_args(path: "server")
-    system "cargo", "install", *std_cargo_args(path: "cli")
+    system "cargo", "install", *std_cargo_args(path: "cmd")
   end
 
   def caveats
