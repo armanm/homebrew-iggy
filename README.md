@@ -25,7 +25,7 @@ environment variable, for example:
 
   export IGGY_CONFIG_PATH=configs/server.json
 
-Alternatively you may want to export the default server configuration like this:
+Alternatively you may want to choose to use the default server configuration like this:
 
   export IGGY_CONFIG_PATH=/opt/homebrew/etc/iggy/configs/server.json
 ==> Summary
